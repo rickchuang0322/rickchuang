@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NUDD GPTs 範例頁面 (ES_test1)</title>
+  <style>
+    body { font-family: "Microsoft JhengHei", Arial, sans-serif; background:#f7fafc; color:#0f172a; margin:0; padding:24px; }
+    header { background:linear-gradient(90deg,#0f172a,#1e40af); color:white; padding:24px; border-radius:8px; }
+    main { margin-top:18px; background:#fff; padding:20px; border-radius:8px; box-shadow:0 6px 18px rgba(15,23,42,.06); }
+    a { color:#2563eb; text-decoration:none; }
+    .card { border:1px solid #e6eefc; padding:14px; border-radius:6px; margin-bottom:12px; background:#fbfdff; }
+    footer { margin-top:18px; color:#64748b; font-size:13px; }
+    pre { background:#f1f5f9; padding:12px; border-radius:6px; overflow:auto; white-space:pre-wrap; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NUDD Test1</h1>
+    <p>此頁為工作區說明與快速導覽（範例 HTML，放在 ES_test1 資料夾）。</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>專案概述</h2>
+      <p>本工作區為 NUDD GPTs Instruction Package，包含 GPT 行為說明、Knowledge Base 與範本。</p>
+      <ul>
+        <li><a href="../00_README.html" target="_blank" rel="noopener noreferrer">00_README.html（套件總覽）</a></li>
+        <li><a href="../01_GPTs_Main_Instruction.md" target="_blank" rel="noopener noreferrer">01_GPTs_Main_Instruction.md（GPT 主指令）</a></li>
+        <li><a href="../knowledge_base/" target="_blank" rel="noopener noreferrer">knowledge_base/（知識庫）</a></li>
+        <li><a href="../templates/" target="_blank" rel="noopener noreferrer">templates/（輸出範本）</a></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>如何使用（快速步驟）</h2>
+      <ol>
+        <li>在 GPTs Builder 中建立新 GPT。</li>
+        <li>將 <code>01_GPTs_Main_Instruction.md</code> 的內容貼入 Instructions。</li>
+        <li>將 <code>knowledge_base</code> 與 <code>templates</code> 的檔案上傳到 GPT Knowledge。</li>
+        <li>上傳專案相關文件（RFQ / Spec / LL）以執行 NUDD 分析。</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>備註</h2>
+      <p>此範例頁面為靜態展示。如需我幫您自動產生更完整的說明頁或加入 CI/部署範例（例如 Dockerfile 或自動上傳腳本），請告訴我需求。</p>
+      <pre>
+範例可修改項目：
+- 標題與說明文字（繁體中文）
+- 顯示更多檔案清單或自動掃描結果
+- 加入部署/上傳按鈕（若有 API 可用）
+      </pre>
+    </section>
+  </main>
+
+  <footer>
+    建立者：NUDD GPTs 範例生成器 • 版本：0.1
+  </footer>
+</body>
+</html>
